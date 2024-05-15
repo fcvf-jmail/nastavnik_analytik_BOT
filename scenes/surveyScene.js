@@ -100,7 +100,7 @@ async function checkVariantsOfAnser(ctx) {
 }
 
 async function saveToCRM(phoneNumber, firstName, lastName, email) {
-    var res = await fetch(new URL(`http://doza-traffic.com/api/wm/push.json?id=${process.env.apiToken}&offer=1&flow=215&site=272&phone=${phoneNumber}&name=${firstName}&last=${lastName}&email=${email}`))
+    var res = await fetch(new URL(`http://doza-traffic.com/api/wm/push.json?id=${process.env.apiToken}&offer=1&flow=423&site=347&phone=${phoneNumber}&name=${firstName}&last=${lastName}&email=${email}`))
     console.log(await res.json());
 }
 
